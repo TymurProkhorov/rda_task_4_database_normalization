@@ -6,7 +6,6 @@ USE ShopDB;
 CREATE TABLE Countries (
     ID INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(50),
-    PRIMARY KEY (ID)
 );
 
 CREATE TABLE Products (
